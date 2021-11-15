@@ -437,7 +437,7 @@ public class TMXMapReader {
                 }
                 shape.closePath();
                 obj.setShape(shape);
-                obj.setBounds((Rectangle2D.Double) shape.getBounds2D());
+//                obj.setBounds((Rectangle2D.Double) shape.getBounds2D());
             } else if ("point".equalsIgnoreCase(child.getNodeName())) {
                 obj.setPoint(new Point());
             }
